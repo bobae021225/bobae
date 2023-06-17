@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+.container{
+  height: 100vh;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+}
+
+.sidebar{
+  background-color: #58FAAC
+  height: 100%;
+  min-width: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:flex-start;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.inner{
+  display: flex;
+  height: 100%;
+  background-color: #58FAAC;
+  margin: 0;
+  text-align:center;
+  /* justify-content: space-between; */
+}
+
+.main{
+  background-image: url('https://media.discordapp.net/attachments/1109052981053243404/1117087077096497262/a70205de2d64ff3b.jpg?width=1062&height=597');
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.sidebar .first{
+  margin-top: 20%;
+  background-color:#58FAAC;
+}
+
+.sidebar .second{
+  margin: 30%;
+  font-size: 30px;
+  font-family: 'Nanum Gothic', sans-serif;
+  background-color: #A9F5D0;
+}
+
+.sidebar .third{
+  margin-top: 50%;
+  background-color: #58FAAC;
+}
+
+.main .header{
+  font-size: 50px;
+  font-family: 'Nanum Gothic', sans-serif;
+  background-color: #58D3F7;
+  color: white;
+  font-weight: bold;
+}
+
+.main .middle{
+  font-size: 30px;
+  background-color: #FBF8EF;
+  text-align: center;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: bold;
+}
+
+.main .footer{
+  font-size: medium;
+  background-color: green;
+  font-family: 'Nanum Gothic', sans-serif;
+  color: white;
+}

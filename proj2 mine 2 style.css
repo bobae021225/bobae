@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+.container{
+  height: 100vh;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+}
+
+.sidebar{
+  background-color: #FACC2E;
+  height: 100%;
+  min-width: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:flex-start;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.inner{
+  display: flex;
+  height: 100%;
+  background-color: #FACC2E;
+  margin: 0;
+  text-align:center;
+  /* justify-content: space-between; */
+}
+
+.main{
+  background-image: url('https://media.discordapp.net/attachments/1109052981053243404/1117174701433819319/letmegogudetama.jpg?width=928&height=557');
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.sidebar .first{
+  margin-top: 20%;
+  background-color:#FACC2E;
+}
+
+.sidebar .second{
+  margin: 30%;
+  font-size: 30px;
+  font-family: 'Nanum Gothic', sans-serif;
+  background-color: #F5DA81;
+}
+
+.sidebar .third{
+  margin-top: 50%;
+  background-color: #FACC2E;
+}
+
+.main .header{
+  margin-top: 13%;
+  margin-left: 15%;
+}
+
+.main .middle{
+  font-size: 25px;
+  background-color: #FBF8EF;
+  text-align: center;
+  font-family: 'Nanum Gothic', sans-serif;
+  color: #ebbc22;
+  font-weight: bold;
+}
